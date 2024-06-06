@@ -1,0 +1,43 @@
+body {
+    width: 1000px;
+    margin: auto;
+    display: block;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table, tr, th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .success {
+    background-color: cyan;
+    color: green;
+    padding: 10px;
+    border: 1px solid green;
+  }
+  
+  .error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 1px solid red;
+  }
+  a.button {
+    text-decoration: none;
+    background-color: #1883f6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  a.button:hover {
+    background-color: #0c37e5;
+  }
+  th {
+    background-color: lightskyblue;
+  }
